@@ -35,10 +35,3 @@ start_handler = CommandHandler('start', start)
 dispatcher.add_handler(start_handler)
 dispatcher.add_handler(CallbackQueryHandler(button))
 
-
-def echo(bot, update):
-    bot.sendMessage(chat_id=update.message.chat_id, text=update.message.text)
-
-
-echo_handler = MessageHandler(Filters.text, echo)
-dispatcher.add_handler(echo_handler)
