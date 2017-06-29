@@ -9,4 +9,4 @@ Installation
 
 Dokumentation
 -------------
-[Python-Telegram-Bot](https://github.com/python-telegram-bot/python-telegram-bot)
+[python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
